@@ -27,7 +27,4 @@ package() {
 	install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname%-git}/LICENSE"
 
 	PREFIX="$pkgdir/usr" ./install.sh
-	rm "${pkgdir}/usr/bin/rbenv-install"
-	rm "${pkgdir}/usr/bin/rbenv-uninstall"
-	rm "${pkgdir}/usr/bin/rbenv-update"
 }
