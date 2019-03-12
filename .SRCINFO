@@ -1,6 +1,6 @@
 pkgbase = php-build-git
 	pkgdesc = Install PHP versions
-	pkgver = 0.10.0.r599.g62dc493
+	pkgver = 0.10.0.r610.g2baf12b
 	pkgrel = 1
 	url = https://github.com/php-build/php-build
 	arch = any
